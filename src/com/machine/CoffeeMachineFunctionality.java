@@ -52,6 +52,8 @@ public class CoffeeMachineFunctionality {
             System.out.println("Sorry, not enough water!\n");
         } else if (grOfCoffee < 16) {
             System.out.println("Sorry, not enough coffee beans!\n");
+        } else if (amountOfCups < 1) {
+                System.out.println("Sorry, not enough cups!\n");
         } else {
             System.out.println("I have enough resources, making you a coffee!\n");
             amountOfCups -= 1;
@@ -68,6 +70,8 @@ public class CoffeeMachineFunctionality {
             System.out.println("Sorry, not enough milk!\n");
         } else if (grOfCoffee < 20) {
             System.out.println("Sorry, not enough coffee beans!\n");
+        } else if (amountOfCups < 1) {
+            System.out.println("Sorry, not enough cups!\n");
         } else {
             System.out.println("I have enough resources, making you a coffee!\n");
             amountOfCups -= 1;
@@ -85,6 +89,8 @@ public class CoffeeMachineFunctionality {
             System.out.println("Sorry, not enough milk!\n");
         } else if (grOfCoffee < 12) {
             System.out.println("Sorry, not enough coffee beans!\n");
+        } else if (amountOfCups < 1) {
+            System.out.println("Sorry, not enough cups!\n");
         } else {
             System.out.println("I have enough resources, making you a coffee!\n");
             amountOfCups -= 1;
